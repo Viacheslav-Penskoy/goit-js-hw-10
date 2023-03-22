@@ -24,6 +24,10 @@ body {
   width: 100%;
 }
 
+#search-box::placeholder {
+  font-size: 14px;
+}
+
 .country-list {
   list-style: none;
 }
