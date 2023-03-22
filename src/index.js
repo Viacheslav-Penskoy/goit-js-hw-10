@@ -50,7 +50,7 @@ function renderCountryList(countries) {
     })
     .join('');
   countryList.innerHTML = markup;
-}
+};
 
 function renderOneCountry(countries) {
       const markup = countries
@@ -67,9 +67,9 @@ function renderOneCountry(countries) {
         })
         .join('');
       countryList.innerHTML = markup;
-}
+};
 
 function cleanHtml() {
   countryList.innerHTML = '';
   countryInfo.innerHTML = '';
-}
+};
